@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Css Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+body{
+    background-color: #f1f3f6;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #474748;
+    background-color: white;
+}
+.logo{
+    width: 160px;
+}
+
+.searchbar{
+    height: 40px;
+    width: 560px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: #777a7e;
+    background-color: #f0f5ff;
+}
+.searchbar i{
+    font-size: 1.4rem;
+    margin: 0px 10px;
+}
+.searchbar input{
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1.1rem;
+}
+
+.login a{
+    
+    color: black;
+}
+.hiconcss i{
+    font-size: 1.2rem;
+}
+
+.ldicon{
+    font-size: 0.7rem;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* Navbar */
+
+section{
+    margin: 20px 0px 0px 20px;
+}
+
+.product-all-category-container{
+    padding: 0px;
+    box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.1);
+    background-color: white;
+    
+}
+
+
+.all-product-container{
+    justify-content: space-evenly;
+    display: flex;
+    background-color: white;
+}
+
+.category-product-container{
+    flex-direction: column;
+}
+
+.category-product-text a{
+    
+    color: black;
+}
+
+
+/* Sales slider */
+.slider-heading h4{
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.slider-heading h6{
+    font-size: .9em;
+    margin-bottom: 0;
+}
+
+.view-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.view-btn button{
+    font-size: .9em;
+    padding: .4em 1.5em;
+    border-radius: 0;
+}
+
+.sales{
+    cursor: pointer;
+    height: 15em;
+    padding: 0em 1em;
+    margin: .1em .2em;
+    width: 13em;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.sales img{
+    height: 60%;
+    transform: scale(.97);
+}
+
+.sales img:hover{
+    transform: scale(1);
+}
+
+.sales a{
+    text-decoration: none;
+    color: #388e3c;
+    font-size: .95em;
+}
+
+.sales h6{
+    color: black;
+    font-size: .9em;
+}
+
+.sales p{
+    color: #212121;
+    opacity: .6;
+    font-size: .85em;
+    margin-top: .6em;
+}
+/* Card */
+.cur{
+    cursor: pointer;
+    transform: scale(.99);
+}
+
+.cur:hover{
+    transform: scale(1);
+}
+
+
+/* Information */
+.information{
+    background-color: white;
+    color: #878787;
+    margin: 2% 0%;
+}
+
+.information h1{
+    font-size: 1.5em;
+}
+
+.information h2{
+    font-size: 1.2em;
+}
+
+.info{
+    font-size: .8em;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Footer */
+footer{
+    background-color: #212121;
+    color: white;
+    padding-top: 3%;
+}
+
+.Footer h6{
+    color: #878787;
+    font-size: .8em;
+}
+
+.Footer > div{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    font-size: .75em;
+    font-weight: 100;
+}
+
+.Footer a{
+    color: white;
+    line-height: 1.3rem;
+}
+
+.Footer p{
+    margin: 0;
+    font-size: .96em;
+    line-height: 1.2rem;
+}
+
+Footer i{
+    color: white;
+}
+
+footer span{
+    font-size: .75em;
+    cursor: pointer;
+}
